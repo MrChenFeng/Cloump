@@ -1,0 +1,246 @@
+Products,huawei_eng_name,huawei_chn_name,eng_description,chn_description
+Compute,Elastic Cloud Server,弹性云服务器 ECS,"Elastic Cloud Server (ECS) is a cloud server that provides scalable, on-demand computing resources for secure, flexible, and efficient applications.",弹性云服务器（Elastic Cloud Server）是一种可随时自助获取、可弹性伸缩的云服务器，可帮助您打造可靠、安全、灵活、高效的应用环境，确保服务持久稳定运行，提升运维效率。
+,Bare Metal Server,裸金属服务器 BMS,Bare Metal Server (BMS) features both the scalability of VMs and high performance of physical servers. It provides dedicated servers on the cloud that offer the computing performance and data security.,裸金属服务器（Bare Metal Server）是一款兼具虚拟机弹性和物理机性能的计算类服务，为您和您的企业提供专属的云上物理服务器，为核心数据库、关键应用系统、高性能计算、大数据等业务提供卓越的计算性能以及数据安全。
+,Auto Scaling,弹性伸缩 AS,Auto Scaling (AS) is a service that automatically adjusts resources based on your service requirements and configured AS policies.,弹性伸缩（Auto Scaling）根据用户的业务需求和策略，自动调整资源。可配置定时、周期或告警策略，使用户资源随业务负载增长而增加，随业务负载降低而减少，节省云上业务资费，保障业务平稳健康运行。
+,Image Management Service,镜像服务 IMS,"An image is a template used to create servers or disks. Image Management Service (IMS) provides full lifecycle management for images, helping you quickly deploy services.",镜像是用于创建服务器或磁盘的模板。镜像服务（Image Management Service，IMS）提供镜像的全生命周期管理能力，帮助用户快速部署业务。
+,Dedicated Host,专属主机 DeH,"Dedicated Host (DeH) is a service that provides dedicated physical hosts. You can create ECSs on a DeH to enhance isolation, security, and performance of your ECSs.",专属主机（Dedicated Host），是指用户可独享的专属物理主机资源。您可以将云服务器创建在您的专属主机上，从而满足您对隔离性、安全性、性能的更高要求。
+,FunctionGraph,函数工作流 FunctionGraph,FunctionGraph hosts and computes functions in a serverless context. It automatically scales to suit fluctuations in resource demands during peaks and spikes while requiring no reservation of dedicated servers or capacities.,函数工作流（FunctionGraph）是华为云提供的一款无服务器（Serverless）计算服务，无服务器计算是一种托管服务，服务提供商会实时为你分配充足的资源，而不需要预留专用的服务器或容量。
+,,,,
+Storage,Object Storage Service,对象存储服务 OBS,"Object Storage Service (OBS) is a stable, secure, efficient, and easy-to-use cloud storage service that is scalable and compatible, allowing storage of any amount of unstructured data in any format.",对象存储服务（Object Storage Service，OBS）提供海量、安全、高可靠、低成本的数据存储能力，可供用户存储任意类型和大小的数据。适合企业备份/归档、视频点播、视频监控等多种数据存储场景。
+,Elastic Volume Service,云硬盘 EVS,"Elastic Volume Service (EVS) offers scalable block storage with high reliability, high performance, and abundant specifications for cloud servers. EVS disks can be used for various scenarios to meet diverse business requirements.",云硬盘（Elastic Volume Service）可以为云服务器提供高可靠、高性能、规格丰富并且可弹性扩展的块存储服务，可满足不同场景的业务需求，适用于分布式文件系统、开发测试、数据仓库以及高性能计算等场景。
+,Cloud Backup and Recovery,云备份 CBR,"Cloud Backup and Recovery (CBR) lets you back up cloud servers, disks, and on-premises VMware VMs. In case of a virus intrusion, accidental deletion, or software/hardware fault, data can be restored to any backup point.",云备份（Cloud Backup and Recovery，CBR）为云上的弹性云服务器、裸金属服务器、云硬盘和云下VMware虚拟化环境，提供简单易用的备份服务，针对病毒入侵、人为误删除、软硬件故障等场景，可将数据恢复到任意备份点。
+,Content Delivery Network,内容分发网络 CDN,"Content Delivery Network (CDN) delivers content from origins to edge nodes, so end users can obtain desired content from nearby nodes. CDN speeds up website response, ensures content availability, and prevents network traffic bottlenecks.",CDN（Content Delivery Network，内容分发网络）是将源站内容分发至靠近用户的加速节点，使用户可以就近获得所需的内容，解决Internet网络拥挤的状况，提高用户访问的响应速度和成功率，从而提升您业务的使用体验。
+,Storage Disaster Recovery Service,存储容灾服务 SDRS,"SDRS provides DR services for many cloud services, such as ECS, DSS, and EVS. SDRS uses multiple technologies, such as storage replication, data redundancy, and cache acceleration, to provide high data reliability and service",存储容灾服务（Storage Disaster Recovery Service）是一种为弹性云服务器、云硬盘和专属分布式存储等服务提供容灾的服务。通过存储复制、数据冗余和缓存加速等多项技术，提供给用户高级别的数据可靠性以及业务连续性，简称存储容灾。
+,Scalable File Service,弹性文件服务 SFS,"Scalable File Service (SFS) provides high-performance file storage (NAS) with on-demand scalability. SFS also allows shared access among Elastic Cloud Servers (ECSs), Bare Metal Servers (BMSs), and cloud containers.",弹性文件服务（Scalable File Service，SFS）提供按需扩展的高性能文件存储（NAS），可为云上多个弹性云服务器（Elastic Cloud Server，ECS），容器（CCE），裸金属服务器（BMS）提供共享访问
+,Volume Backup Service,云硬盘备份 VBS,"Volume Backup Service (VBS) allows you to back up Elastic Volume Service (EVS) disks and restore EVS disks from backups, keeping your data on EVS disks accurate and secure.",云硬盘备份（Volume Backup Service）可为云硬盘创建备份，利用备份数据回滚云硬盘，以最大限度保证用户数据正确性和安全性，确保您的云硬盘安全。
+,Cloud Server Backup Service,云服务器备份 CSBS,"Cloud Server Backup Service (CSBS) allows you to back up Elastic Cloud Servers (ECSs) and restore server data from backups, keeping your data accurate and secure.",云服务器备份（Cloud Server Backup Service）可为云服务器创建备份，利用备份数据恢复云服务器业务数据，最大限度保障用户数据的安全性和正确性，确保业务安全。
+,Data Express Service,数据快递服务 DES,"Data Express Service (DES) is a TB- or PB-scale data transmission service. It uses physical storage media (such as external USB flash drives and eSATA disks) to transmit a large amount of data to HUAWEI CLOUD, saving time and costs.",数据快递服务（Data Express Service）是一种海量数据传输解决方案，支持TB到PB级数据上云，通过Teleport设备或硬盘（外置USB接口、SATA接口、SAS接口类型）向华为云传输大量数据，解决海量数据传输网络成本高、传输时间长等难题。
+,Dedicated Enterprise Storage Service,专属企业存储服务 DESS,"Dedicated Enterprise Storage Service (DESS) provides dedicated HUAWEI CLOUD-based storage services to enterprises. Optimized for enterprises' mission critical applications such as Oracle RAC and SAP HANA TDI, DESS provides the same superb performance and reliability as enterprise private cloud and simplifies service deployment on public cloud for enterprise users.",专属企业存储服务（Dedicated Enterprise Storage Service，以下简称DESS），是基于华为企业存储构建的专属存储服务，面向Oracle RAC、SAP HANA TDI等企业关键应用场景，可以提供与企业私有云环境一致的性能和可靠性，简化企业级用户在公有云上部署关键应用的难度。
+,,,,
+Network,Virtual Private Cloud,虚拟私有云 VPC,"The Virtual Private Cloud (VPC) service enables you to provision logically isolated, configurable, and manageable virtual networks for cloud servers, cloud containers, and cloud databases, improving cloud service security and simplifying",虚拟私有云（Virtual Private Cloud）是用户在华为云上申请的隔离的、私密的虚拟网络环境。用户可以自由配置VPC内的IP地址段、子网、安全组等子服务，也可以申请弹性带宽和弹性公网IP搭建业务系统。
+,Elastic IP,弹性公网IP EIP,"An EIP is a public IP address that can be accessed directly over the Internet. An EIP consists of a public IP address and some amount of public network egress bandwidth. EIPs can be bound to or unbound from ECSs, BMSs, virtual IP",弹性公网IP（Elastic IP，简称EIP）提供独立的公网IP资源，包括公网IP地址与公网出口带宽服务。可以与弹性云服务器、裸金属服务器、虚拟IP、弹性负载均衡、NAT网关等资源灵活地绑定及解绑。
+,Virtual Private Network,虚拟专用网络 VPN,"Virtual Private Network (VPN) establishes a secure, encrypted communications tunnel between your local data center and your VPC on HUAWEI CLOUD. With VPN, you can build a flexible and scalable hybrid cloud environment.",虚拟专用网络（Virtual Private Network），用于在远端用户和VPC之间建立一条符合行业标准的安全加密通信隧道，将已有数据中心无缝扩展到华为云上。
+,Elastic Load Balance,弹性负载均衡 ELB,Elastic Load Balance (ELB) distributes incoming traffic across multiple backend servers based on listening rules. This expands service capabilities of applications and improves their fault tolerance.,弹性负载均衡（Elastic Load Balance）是将访问流量根据转发策略分发到后端多台弹性云服务器的流量分发控制服务，可以通过流量分发扩展应用系统对外的服务能力，提高应用程序的容错能力。
+,NAT Gateway,NAT网关 NAT,A public NAT gateway provides SNAT and DNAT so that cloud servers in a VPC can share an EIP to communicate with the Internet. A private NAT gateway allows cloud servers in a VPC to share the same private IP address to access or provide service for private network.,NAT网关（NAT Gateway）提供公网NAT网关和私网NAT网关。公网NAT网关为VPC内的云主机提供SNAT和DNAT功能，可轻松构建VPC的公网出入口。私网NAT网关为VPC内的云主机提供网络地址转换服务，使多个云主机可以共享私网IP访问用户本地数据中心或其他VPC，并支持云主机面向私网提供服务。
+,Direct Connect,云专线 DC,"Direct Connect establishes a high-speed, low-latency, stable, and secure dedicated network connection that links your environment to HUAWEI CLOUD.",云专线（Direct Connect）用于搭建企业自有计算环境到华为云用户计算环境的高速、稳定、安全的专属通道。您可使用专线接入服务将本地数据中心的计算机与华为云上的云服务器或托管主机实现私网相连，实现安全可靠的混合云部署
+,Domain Name Service,云解析服务 DNS,Domain Name Service (DNS) provides highly available and scalable authoritative DNS resolution services along with domain name management. It translates domain names into IP addresses required for network connection to route visitors.,云解析服务（Domain Name Service）提供高可用，高扩展的权威DNS服务和DNS管理服务，帮助您将域名或应用资源转换成用于计算机连接的IP地址，从而将最终用户路由到相应的应用资源上。
+,VPC Endpoint,VPC终端节点,"VPC Endpoint (VPCEP) enables you to securely access HUAWEI CLOUD services or your private services, providing flexible networking without having to use EIPs.",终端节点（VPC Endpoint）可以在VPC内提供便捷、安全、私密的通道与终端节点服务（华为云服务、用户私有服务）进行连接，该服务使用华为云内部网络，无需弹性公网IP，为您提供性能更加强大、更加灵活的网络。
+,Cloud Connect,云连接 CC,"Cloud Connect (CC) is a service that enables you to quickly build ultra-fast, high-quality, and stable networks between VPCs across regions and between VPCs and on-premises data centers. ",云连接（Cloud Connect）能够提供一种快速构建跨区域VPC及云上多VPC与云下多数据中心之间的高速、优质、稳定的网络能力，帮助用户打造一张具有企业级规模和通信能力的全球云上网络。
+,,,,
+Container Service,Cloud Container Engine,云容器引擎 CCE,"Cloud Container Engine (CCE) provides highly scalable, high-performance, enterprise-class Kubernetes clusters and supports Docker containers. With CCE, you can easily deploy, manage, and scale containerized applications on HUAWEI cloud.",云容器引擎（Cloud Container Engine，简称CCE）提供高度可扩展的、高性能的企业级Kubernetes集群，支持运行Docker容器。借助云容器引擎，您可以在华为云上轻松部署、管理和扩展容器化应用程序。
+,Software Repository for Container,容器镜像服务 SWR,"Software Repository for Container (SWR) provides easy, secure, and reliable management over container images throughout their lifecycle, facilitating the deployment of containerized applications. ",容器镜像服务（Software Repository for Container）是一种支持容器镜像全生命周期管理的服务， 提供简单易用、安全可靠的镜像管理功能，帮助用户快速部署容器化服务。
+,Application Orchestration Service,应用编排服务 AOS,Application Orchestration Service (AOS) enables enterprises to automate application cloudification. ,应用编排服务（Application Orchestration Service）为企业提供应用上云的自动化能力，支持编排华为云上的主流云服务，实现在华为云上一键式的应用创建及云服务资源开通，提供高效的一键式云上应用复制和迁移能力。
+,ContainerOps,容器交付流水线 ContainerOps,"ContainerOps is a DevOps orchestration platform for you to clearly define the entire DevOps workflow from source code obtaining to application rolling out, covering key tasks like code compiling, image build, gray deployment, etc.",容器交付流水线（ContainerOps）以DevOps理念为基础，面向从源代码到生产上线全流程，提供代码编译、镜像构建、灰度发布、容器化部署等一系列服务，助力企业落地容器DevOps最佳实践。
+,,,,
+Security,Anti-DDoS,Anti-DDoS 流量清洗,The Anti-DDoS service protects EIPs against layer-4 to layer-7 distributed denial of service (DDoS) attacks and sends alarms immediately when detecting an attack. ,Anti-DDoS流量清洗服务（以下简称Anti-DDoS）为华为云内资源（弹性云服务器、弹性负载均衡和裸金属服务器），提供四到七层的DDoS攻击防护和攻击实时告警通知。同时，Anti-DDoS可以提升用户带宽利用率，确保用户业务稳定运行。
+,Web Application Firewall,Web应用防火墙 WAF,"Web Application Firewall (WAF) keeps web services stable and secure. It examines all HTTP and HTTPS requests to detect and block the following attacks: Structured Query Language (SQL) injection, cross-site scripting (XSS), webshells, etc.",Web应用防火墙（Web Application Firewall， WAF），通过对HTTP(S)请求进行检测，识别并阻断SQL注入、跨站脚本攻击、网页木马上传、命令/代码注入、文件包含、敏感文件访问、第三方应用漏洞攻击、CC攻击、恶意爬虫扫描、跨站请求伪造等攻击，保护Web服务安全稳定。
+,Vulnerability Scan Service,漏洞扫描服务 VSS,"Vulnerability Scan Service (VSS) detects the vulnerabilities on the websites. It provides services such as vulnerability assessments, vulnerability lifecycle management, and scan customization.",漏洞扫描服务（Vulnerability Scan Service）是针对网站进行漏洞扫描的一种安全检测服务，目前提供通用漏洞检测、漏洞生命周期管理、自定义扫描多项服务。用户新建任务后，即可人工触发扫描任务，检测出网站的漏洞并给出漏洞修复建议。
+,Host Security Service,企业主机安全 HSS,"Host Security Service (HSS) is designed to improve the overall security for hosts. It reduces intrusion risks with asset management, vulnerability management, intrusion detection, and baseline inspection functions.",企业主机安全（Host Security Service）是提升主机整体安全性的服务，包括账户破解防护、弱口令检测、恶意程序检测、双因子认证、漏洞管理，网页防篡改等功能，帮助企业构建服务器安全防护体系，降低当前服务器面临的主要安全风险。
+,Data Encryption Workshop,数据加密服务 DEW,"Data Encryption Workshop (DEW) is a full-stack data encryption service. It covers KMS, KPS, and Dedicated HSM. With DEW, you can develop customized encryption applications.",数据加密服务（Data Encryption Workshop）是一个综合的云上数据加密服务。它可以提供专属加密、密钥管理、密钥对管理等功能。其密钥由硬件安全模块HSM保护，并与许多华为云服务集成。您也可以借此服务开发自己的加密应用。
+,Database Security Service,数据库安全服务 DBSS,"Database Security Service (DBSS) is developed based on Huawei's 30 years of experience in database security practices. It provides database audit services in bypass mode, records user access to the database in real time, generates fine-grained audit reports, and reports real-time alarms on risky operations and attack behaviors.",数据库安全服务DBSS（Database Security Service）是华为云基于30年数据库安全积累自研的云服务。提供旁路模式数据库安全审计功能，通过实时记录用户访问数据库行为，形成细粒度的审计报告，对风险行为和攻击行为进行实时告警，并生成满足数据安全标准（例如Sarbanes-Oxley）的合规报告
+,SSL Certificate Manager,SSL证书管理 SCM,"SSL Certificate Manager (SCM) is a service that provides one-stop lifecycle management of digital certificates, ensuring trusted authentication and secure connections.",SSL证书管理（SSL Certificate Manager）是华为联合全球知名数字证书服务机构，为您提供一站式证书的全生命周期管理，实现网站的可信身份认证与安全数据传输。
+,Advanced Anti-DDoS,DDoS高防 AAD,"Advanced Anti-DDoS (AAD) is a value-added service that protects gaming, finance, and e-commerce customers against large volumetric DDoS attacks.",DDoS高防（Advanced Anti-DDoS，AAD）是针对互联网服务器（包括非华为云主机）在遭受大流量DDoS攻击后导致服务不可用的情况下，推出的付费增值服务，用户可以通过配置高防IP，将攻击流量引流到高防IP清洗，确保源站业务稳定可靠。
+,Container Guard Service,容器安全服务 CGS,"Container Guard Service (CGS) scans vulnerabilities and configurations in images, helping enterprises detect the container environment, which cannot be achieved by the traditional security software. CGS also delivers functions such as process whitelist configuration, read-only file protection, and container escape detection to minimize the security risks for a running container.",容器安全服务（Container Guard Service，CGS）能够扫描镜像中的漏洞与配置信息，帮助企业解决传统安全软件无法感知容器环境的问题；同时提供容器进程白名单、文件只读保护和容器逃逸检测功能，有效防止容器运行时安全风险事件的发生。
+,,,,
+Management and Deployment,Cloud Eye,云监控服务 CES,"Cloud Eye provides users with a three-dimensional monitoring platform for elastic cloud servers, bandwidth, and other resources. It enables you to have a comprehensive understanding of resource usage and business operation on Huawei Cloud, and to react to abnormal alarms in a timely manner to ensure smooth business operation.",云监控（Cloud Eye）为用户提供一个针对弹性云服务器、带宽等资源的立体化监控平台。使您全面了解华为云上的资源使用情况、业务的运行状况，并及时收到异常报警做出反应，保证业务顺畅运行。
+,Identity and Access Management,统一身份认证服务 IAM,The Identity and Access Management (IAM) service provides permissions management for secure access to your HUAWEI CLOUD services and resources. IAM is free of charge.,统一身份认证（Identity and Access Management，简称IAM）是华为云提供权限管理的基础服务，可以帮助您安全地控制华为云服务和资源的访问权限。IAM无需付费即可使用。
+,Cloud Trace Service,云审计服务 CTS,"Cloud Trace Service, a professional log auditing service in Huawei's cloud security solution, provides collection, storage, and query functions for various cloud resource operation records, which can be used to support common application scenarios such as security analysis, compliance auditing, resource tracking, and problem location.",云审计服务（Cloud Trace Service），是华为云安全解决方案中专业的日志审计服务，提供对各种云资源操作记录的收集、存储和查询功能，可用于支撑安全分析、合规审计、资源跟踪和问题定位等常见应用场景。
+,Tag Management Service,标签管理服务 TMS,"Tag Management Service (TMS) provides fast, unified cross-region tagging and categorization of cloud services.",标签管理服务（Tag Management Service，简称TMS）是一种快速便捷将标签集中管理的可视化服务，提供跨区域、跨服务的集中标签管理和资源分类功能。
+,Log Tank Service,云日志服务 LTS,"og Tank Service (LTS) stores logs, allowing you to query and transfer them in real time. It simplifies real-time analysis for decision making and improves log processing efficiency.",云日志服务（Log Tank Service，简称LTS）可以提供日志收集、分析、存储等服务。用户可以通过云日志服务快速高效地进行设备运维管理、用户业务趋势分析、安全监控审计等操作。
+,Resource Management Service,资源管理服务 RMS,"Resource Management Service (RMS) enables you to centrally manage your cloud resources. You can store and search for them, and evaluate their security compliance.",资源管理服务（Resource Management Service，简称“RMS”）为用户提供进行全局资源管理的能力，用户可以通过RMS来检索、存储、评估自己在云平台上的资源，实现云平台上的最佳安全实践。
+,,,,
+Database,Relational Database Service,云数据库 RDS,"HUAWEI CLOUD Relational Database Service (RDS) is a cloud-based web service that is reliable, scalable, easy to manage, and ready for immediate use.
+
+",华为云关系型数据库（Relational Database Service，简称RDS）是一种基于云计算平台的即开即用、稳定可靠、弹性伸缩、便捷管理的在线关系型数据库服务。
+,Document Database Service,文档数据库服务 DDS,"Document Database Service is fully compatible with MongoDB protocol, providing secure, highly available, highly reliable, elastic and scalable and easy-to-use database services, while providing one-click deployment, elastic expansion, disaster recovery, backup, recovery, monitoring and alerting functions.",文档数据库服务（Document Database Service）完全兼容MongoDB协议，提供安全、高可用、高可靠、弹性伸缩和易用的数据库服务，同时提供一键部署、弹性扩容、容灾、备份、恢复、监控和告警等功能。
+,Data Admin Service,数据管理服务 DAS,"Data Admin Service (DAS) allows you to manage databases on a web-based console and supports SQL execution, high-level management of databases, simplifying database management and improving working efficiency and data security.",数据管理服务（Data Admin Service，简称DAS），是一种提供数据库可视化操作的服务，包括基础SQL操作、高级数据库管理、智能化运维等功能，旨在帮助用户易用、安全、智能的进行数据库管理。
+,Data Replication Service,数据复制服务 DRS,"Data Replication Service (DRS) is a stable, efficient, and easy-to-use cloud service for database online migration and synchronization.It simplifies data migration processes and reduces migration costs.
+
+",数据复制服务（Data Replication Service，简称DRS）是一种易用、稳定、高效、用于数据库在线迁移和数据库实时同步的云服务。
+,GaussDB NoSQL,云数据库GaussDB NoSQL,"Cloud Database GaussDB NoSQL is a distributed multi-mode NoSQL database service based on Huawei's self-developed compute and storage separation architecture. On the basis of Huawei Cloud's high performance, high availability, high reliability, high security, and elastic scalability, it provides service capabilities such as one-click deployment, backup and recovery, and monitoring and alarming.",云数据库 GaussDB NoSQL是一款基于华为自主研发的计算存储分离架构的分布式多模NoSQL数据库服务。在华为云高性能、高可用、高可靠、高安全、可弹性伸缩的基础上，提供了一键部署、备份恢复、监控报警等服务能力。
+,GaussDB(for MySQL),云数据库 GaussDB(for MySQL),"GaussDB(for MySQL) is an enterprise-class distributed database and fully compatible with MySQL. It uses a decoupled compute and storage architecture and supports up to 128 TB of storage. With GaussDB(for MySQL), there is no need to deal with sharding, and no need to worry about data loss. It combines the performance and availability of commercial databases with the cost-effectiveness of open source databases.",云数据库 GaussDB(for MySQL)是华为自研的最新一代企业级高扩展海量存储分布式数据库，完全兼容MySQL。基于华为最新一代DFV存储，采用计算存储分离架构，128TB的海量存储，无需分库分表，数据0丢失，既拥有商业数据库的高可用和性能，又具备开源低成本效益。
+,,,,
+Migration,Server Migration Service,主机迁移服务 SMS,Server Migration Service (SMS) provides P2V and V2V migration services to help you migrate applications and data from on-premises x86 physical servers or VMs on private or public clouds to HUAWEI CLOUD Elastic Cloud Servers ,主机迁移服务（Server Migration Service，SMS）是一种P2V/V2V迁移服务，可以帮您把X86物理服务器或者私有云、公有云平台上的虚拟机迁移到华为云弹性云服务器云主机上，从而帮助您轻松地把服务器上的应用和数据迁移到华为云。
+,Object Storage Migration Service,对象存储迁移服务 OMS,Object Storage Migration Service is an online data migration service that helps users migrate object storage data from the public cloud of other cloud service providers to the OBS on HUAWEI CLOUD.,对象存储迁移服务（Object Storage Migration Service，OMS）是一种线上数据迁移服务，帮助您将其他云服务商对象存储服务中的数据在线迁移至华为云的对象存储服务（Object Storage Service，OBS）中。
+,Cloud Data Migration,云数据迁移 CDM,Cloud Data Migration (CDM) implements data mobility by enabling batch data migration among homogeneous and heterogeneous data sources. ,云数据迁移（Cloud Data Migration，以下简称CDM）提供同构/异构数据源之间批量数据迁移服务，帮助您实现数据自由流动。支持自建和云上的文件系统，关系数据库，数据仓库，NoSQL，大数据云服务，对象存储等数据源。
+,,,,
+Application,ServiceStage,应用管理与运维平台 ServiceStage,"ServiceStage is an application and microservice management platform that helps enterprises simplify application lifecycle management from deployment, monitoring, and O&M, to governance. ",ServiceStage是一个应用托管和微服务管理平台，可以帮助企业简化部署、监控、运维和治理等应用生命周期管理工作。面向企业提供微服务、移动和Web类应用开发的全栈解决方案，帮助您的各类应用轻松上云，聚焦业务创新，帮助企业数字化快速转型。
+,Distributed Cache Service,分布式缓存服务 DCS,"Distributed Cache Service (DCS) is an online, distributed, in-memory cache service. It is reliable, scalable, usable out of the box, and easy to manage. ",分布式缓存服务（Distributed Cache Service，简称DCS）为您提供即开即用、安全可靠、弹性扩容、便捷管理的在线分布式缓存能力，兼容Redis和Memcached，提供单机、主备、集群等丰富的实例类型，满足用户高并发及快速数据访问的业务诉求。
+,Simple Message Notification,消息通知服务 SMN,Simple Message Notification (SMN) is a reliable and flexible large-scale message notification service. It pushes messages to specified subscription endpoints and greatly reduces system coupling.,消息通知服务（Simple Message Notification）是可靠、可扩展、海量的消息处理服务。它大大简化系统的耦合，能够根据用户的需求，向订阅者主动推送消息的服务，订阅者可以是电子邮件、短信、HTTP和HTTPS等。
+,Distributed Message Service,分布式消息服务 DMS,"Distributed Message Service (DMS) is a message middleware service based on distributed, high-availability clustering technology. It provides reliable, scalable, fully managed queues for storing messages.",分布式消息服务（Distributed Message Service，简称DMS）是一项基于高可用分布式集群技术的消息中间件服务，提供了可靠且可扩展的托管消息队列，用于收发消息和存储消息。
+,Application Operations Management,应用运维管理 AOM,"Application Operations Management (AOM) is a one-stop, multi-dimensional O&M management platform for cloud applications. It monitors applications and cloud resources in real time, and collects metrics, logs, and events.",应用运维管理（简称AOM）是云上应用的一站式立体化运维管理平台，实时监控应用及云资源，采集各项指标、日志及事件等数据分析应用健康状态，提供告警及数据可视化功能，帮助用户及时发现故障，全面掌握应用、资源及业务的实时运行状况。
+,Application Performance Management,应用性能管理 APM,Application Performance Management (APM) monitors and manages the performance of cloud applications in real time. It provides performance analysis of distributed applications to locate and resolve faults and performance bottlenecks.,应用性能管理服务（Application Performance Management，简称APM）是实时监控并管理云应用性能和故障的云服务，提供专业的分布式应用性能分析能力，帮助运维人员快速解决分布式架构下的问题定位和性能瓶颈等难题，为用户体验保驾护航。
+,Blockchain Service,区块链服务 BCS,HUAWEI CLOUD Blockchain Service (BCS) offers a highly available and secure blockchain platform with superb performance to enterprises and developers.,区块链服务（Blockchain Service）是面向企业及开发者的高性能、高可用和高安全的区块链技术平台服务，可以帮助企业和开发人员在华为云上快速、低成本的创建、部署和管理区块链应用。
+,API Gateway,API网关 APIG,"API Gateway is a high-performance, high-availability, and high-security API hosting service that helps enterprises to build, manage, and deploy APIs at any scale. ",API网关（API Gateway）是为企业开发者及合作伙伴提供的高性能、高可用、高安全的API托管服务， 帮助企业轻松构建、管理和部署不同规模的API。简单、快速、低成本、低风险的实现内部系统集成、成熟业务能力开放及业务能力变现。
+,Cloud Performance Test Service,云性能测试服务 CPTS,"Cloud Performance Test Service (CPTS) provides performance tests for cloud applications that are built based on HTTP, HTTPS, TCP or UDP.",云性能测试服务（Cloud Performance Test Service）是一项为HTTP/HTTPS/TCP/UDP等协议构建的云应用提供性能测试的服务。
+,Distributed Message Service for Kafka,分布式消息服务 Kafka,"Distributed Message Service (DMS) for Kafka is a message queuing service based on the open-source Apache Kafka. It provides Kafka premium instances with isolated computing, storage, and bandwidth resources.
+
+","分布式消息服务 Kafka（Distributed Message Service for Kafka）是一款基于开源社区版Kafka提供的消息队列服务，向用户提供计算、存储和带宽资源独占式的Kafka专享实例。
+
+"
+,Distributed Message Service for RabbitMQ,分布式消息服务 RabbitMQ,"Based on the open-source RabbitMQ, Distributed Message Service (DMS) for RabbitMQ provides messaging services with rich messaging features, flexible routing, high availability, monitoring, and alarming functions. It is applicable to flash sales, flow control, and system decoupling scenarios.
+
+","分布式消息服务RabbitMQ完全兼容开源RabbitMQ，为您提供即开即用、消息特性丰富、灵活路由、高可用、监控和告警等特性，广泛应用于秒杀、流控、系统解耦等场景。
+
+"
+,,,,
+Enterprise Intelligence,MapReduce Service,MapReduce服务 MRS,"MapReduce Service (MRS) provides enterprise-level big data clusters on the cloud. Tenants can fully control clusters and easily run big data components such as Hadoop, Spark, HBase, Kafka, and Storm.
+
+","MapReduce服务（MapReduce Service）提供租户完全可控的企业级大数据集群云服务，轻松运行Hadoop、Spark、HBase、Kafka、Storm等大数据组件。
+
+"
+,Data Warehouse Service,数据仓库服务 GaussDB(DWS),"Data Warehouse Service (DWS) is a real-time, simple, secure, and reliable enterprise-class converged data warehouse service. It is compatible with the standard ANSI SQL 99/2003 and PostgreSQL/Oracle ecosystems, providing state of the art PB-level big data analysis across a variety of industries.
+
+","数据仓库服务（Data Warehouse Service，简称DWS）是完全托管的企业级云上数据仓库服务，具备免运维、在线扩展、高效的多源数据加载能力，兼容PostgreSQL生态。助力企业经济高效地对海量数据进行在线分析，实现数据快速变现。
+
+"
+,Face Recognition Service,人脸识别服务 FRS,"Face Recognition Service (FRS) is an intelligent service that uses computers to process, analyze, and understand facial images based on human facial features. 
+
+","人脸识别服务（Face Recognition Service，简称FRS），是基于人的脸部特征信息，利用计算机对人脸图像进行处理、分析和理解，进行身份识别的一种智能服务。
+
+"
+,Graph Engine Service,图引擎服务 GES,"Graph Engine Service (GES) facilitates querying and analysis of graph-structure data based on various relationships. It is specifically suited for scenarios requiring analysis of rich relationship data, including social relationship analysis, recommendations, precision marketing, public opinions and social listening, information communication, and anti-fraud.
+
+","图引擎服务（Graph Engine Service）是针对以“关系”为基础的“图”结构数据，进行查询、分析的服务。广泛应用于社交关系分析、营销推荐、舆情分析、路径规划、知识图谱、金融风控等具有丰富关系数据的场景。
+
+"
+,Data Lake Insight,数据湖探索 DLI,"Data Lake Insight (DLI) is a serverless big data compute and analysis service that is fully compatible with Apache Spark and Apache Flink ecosystems and supports batch streaming. With multi-model engines, enterprises can use SQL statements or programs to easily complete batch processing, stream processing, in-memory computing, and machine learning of heterogeneous data sources.
+
+","数据湖探索（Data Lake Insight，简称DLI）是基于Apache Spark生态，完全托管的大数据处理分析服务。企业使用标准SQL或Spark程序就能轻松完成异构数据源的联邦分析，挖掘和探索数据价值。
+
+"
+,Cloud Search Service,云搜索服务 CSS,"Cloud Search Service (CSS) is a fully managed, distributed search engine service. It is fully compatible with open-source Elasticsearch and provides you with structured and unstructured data search, statistics, and report capabilities. CSS works in the similar way as a database.
+
+","云搜索服务（Cloud Search Service，简称CSS），为您提供托管的分布式搜索引擎服务，完全兼容开源Elasticsearch搜索引擎，支持结构化、非结构化文本的多条件检索、统计、报表。云搜索服务的使用流程和数据库类似。
+
+"
+,Image Recognition,图像识别 Image Recognition,"Image Recognition adopts deep learning technologies to accurately identify contents in images. It provides multiple tags for identifying objects, scenarios, and concepts to help you understand image contents.
+
+","图像识别（Image Recognition），基于深度学习技术，可准确识别图像中的视觉内容，提供多种物体、场景和概念标签，具备目标检测和属性识别等能力，帮助客户准确识别和理解图像内容。
+
+"
+,Content Moderation,内容审核 Moderation,"Content Moderation, based on image, text and video auditing technology, can automatically detect content involving pornography, advertisements, political violence and sensitive political figures, helping customers reduce the risk of business violations.
+","内容审核（Content Moderation），基于图像、文本、视频审核技术，可自动进行涉黄、广告、涉政涉暴、涉政敏感人物等内容检测，帮助客户降低业务违规风险。
+
+"
+,Optical Character Recognition,文字识别 OCR,"OCR provides services through open Application Programming Interfaces (APIs). You can obtain the inference result by accessing and invoking APIs in real time. 
+
+","文字识别（Optical Character Recognition，简称OCR）以开放API的方式提供给用户，用户使用Python、Java等编程语言调用OCR服务API将图片识别成文字，帮助用户自动采集关键数据，打造智能化业务系统，提升业务效率。
+
+"
+,Data Lake Factory,数据湖工厂 DLF,"Data Lake Factory (DLF) is a one-stop big data development platform to help you quickly build big data processing centers.
+
+","数据湖工厂（Data Lake Factory）提供一站式的大数据协同开发平台，帮助用户快速构建大数据处理中心。
+
+"
+,ModelArts,AI开发平台ModelArts,"ModelArts is a one-stop development platform for AI developers. With data preprocessing, semi-automated data labeling, distributed training, and automated model building, ModelArts helps developers build models and manage the AI development lifecycle.
+
+","ModelArts是面向开发者的一站式AI开发平台，为机器学习与深度学习提供海量数据预处理及半自动化标注、大规模分布式Training、自动化模型生成，及端-边-云模型按需部署能力，帮助用户快速创建和部署模型，管理全周期AI工作流。
+
+"
+,ImageSearch,图像搜索 ImageSearch,"ImageSearch leverages deep learning and image recognition technologies to deliver service- and industry-specific feature vectorization and search capabilities to help your search of exact/fuzzy match images from the specified gallery.
+
+","图像搜索（ImageSearch）基于深度学习与图像识别技术，结合不同应用业务和行业场景，利用特征向量化与搜索能力，帮助客户从指定图库中搜索相同或相似的图片。
+
+"
+,Video Ingestion Service,视频接入服务 VIS,"Video Ingestion Service (VIS) ingests massive volumes of video data in real time. With its impressive data collection, quick real-time transmission, and powerful data dumping capabilities, you can easily build intelligent analysis applications through integration with HUAWEI CLOUD VAS.
+
+","视频接入服务（Video Ingestion Service，简称VIS）是华为云提供的实时视频数据接入服务，提供了摄像头视频数据采集、实时数据分发和视频数据转储等能力。借助视频接入服务，您可以与华为云视频分析服务集成，快速构建基于实时视频数据的智能分析应用。
+
+"
+,Conversational Bot Service,对话机器人服务 CBS,"Conversational Bot Service (CBS) helps you quickly build, publish, and manage intelligent Q&A bots.
+
+","对话机器人服务（Conversational Bot Service）帮助企业快速构建，发布和管理智能问答机器人系统。
+
+"
+,Speech Interaction Service,语音交互服务 SIS,"语音交互服务（Speech Interaction Service，简称SIS）是一种人机交互方式，以开放API（Application Programming Interface，应用程序编程接口）的方式提供给用户，用户通过实时访问和调用API获取语音交互结果。
+
+","语音交互服务（Speech Interaction Service，简称SIS）是一种人机交互方式，以开放API（Application Programming Interface，应用程序编程接口）的方式提供给用户，用户通过实时访问和调用API获取语音交互结果。
+
+"
+,Huawei HiLens,华为HiLens,"Huawei HiLens is a one-stop platform for the development, distribution, deployment, and management of AI applications. It provides extensive device-cloud synergy capabilities such as large-scale device management, dynamic application deployment, online training, and device model optimization.
+
+","华为HiLens为端云协同多模态AI开发应用平台，提供简单易用的开发框架、开箱即用的开发环境、丰富的AI技能市场和云上管理平台，对接多种端侧计算设备，支持视觉及听觉AI应用开发、AI在线部署、海量设备管理等。
+
+"
+,Data Lake Visualization,数据可视化 DLV,"Data Lake Visualization (DLV) is a one-stop data visualization platform that adapts to various data sources in the cloud or on-premises. By dragging and dropping 2D and 3D visual components on DLV, you can quickly customize and create a data screen of your own.
+
+","数据可视化（Data Lake Visualization）是一站式数据可视化开发平台，适配云上云下多种数据源，提供丰富多样的2D、3D可视化组件，采用拖拽式自由布局，旨在帮助您快速定制和应用属于您自己的数据大屏。
+
+"
+,Natural Language Processing,自然语言处理 NLP,"Natural Language Processing (NLP) is a cloud service pertained to various enterprises and developers for text analysis and mining. It aims to help users efficiently process text.
+
+","自然语言处理（Natural Language Processing，简称NLP）是一款基于人工智能技术，针对各类企业及开发者提供的用于文本分析及挖掘的云服务，旨在帮助用户高效的处理文本。
+
+"
+,,,,
+Cloud Communications,Message & SMS,消息&短信,Message service,信息服务
+,,,,
+Video,Media Processing Center,媒体处理 MPC,"Media Processing Center (MPC) is designed to convert media files into the formats required by playback devices like PCs, TVs, and mobile phones, in a cost-effective, efficient, and highly scalable manner.
+
+","媒体处理（Media Processing Center）为海量多媒体数据提供经济、高效、弹性的转码和音视频处理服务，支持丰富的转码格式，适合在PC、TV以及移动终端上播放，匹配多种商业场景。
+
+"
+,,,,
+Cloud Ecosystem,Partner Center,合作伙伴中心,"The Partner Center provides business support for partners, including certification, settlement, as well as program, agreement, and invoice management.
+
+","合作伙伴中心（Partner Center）针对不同类型的伙伴提供业务流程支撑，包括伙伴认证、计划管理、协议管理、发票管理与对账结算等。
+
+"
+,,,,
+,Dedicated Computing Cluster,专属计算集群 DCC,"Dedicated Computing Cluster (DCC) provides dedicated, physically isolated computing resource pools on HUAWEI CLOUD to ensure secure service operation. DCCs are applicable to scenarios with high security requirements, such as financial systems, data warehouses, and high-performance computing.
+
+","专属计算集群（Dedicated Computing Cluster）为用户提供物理隔离的云上专属计算资源池。适用于金融安全、数据仓库、基因测序、生物制药等对资源独享，性能要求高的场景。用户可申请独占物理设备，独享计算，从而保证业务稳定运行。
+
+"
+Dedicated Cloud,Dedicated Distributed Storage Service,专属分布式存储服务 DSS,"Dedicated Distributed Storage Service (DSS) provides dedicated, physical storage with high availability, durability, and low latency. It can be interconnected with compute services and used in HPC, OLAP, and mixed load scenarios.
+
+","专属分布式存储服务（Dedicated Distributed Storage Service，DSS）可提供独享的物理存储资源，提供高可用性和持久性，以及稳定的低时延性能；可对接ECS、BMS以及DCC等多种类型的计算服务，适用于HPC、OLAP以及混合负载等应用场景。
+
+"
+Enterprise Applications,ROMA Connect,应用与数据集成平台 ROMA Connect,"ROMA Connect is a full-stack application & data integration platform. It provides data, API, message, and device integration to allow interconnection between cloud and on-premises applications, helping enterprises achieve digital transformation.
+
+","应用与数据集成平台（ROMA Connect）是一个全栈式的服务平台，聚焦应用和数据连接，提供数据、API、消息和设备集成能力，帮助企业快速联接云上云下，消除数字鸿沟，实现数字化转型。
+
+"
+,,,,
+IoT,IoT Device Management,设备管理,"The IoT platform provides access to a wide range of sensors, devices, and gateways. It is designed for industry customers and device manufacturers. It integrates a variety of network applications (NAs) through open application programming interfaces (APIs).
+
+","利用华为云物联网平台 ，您可以对设备进行高效、可视化的管理，对数据进行整合分析，并通过调用平台面向行业强大的开放能力，快速构建创新的物联网业务
+
+"
+,Intelligent EdgeFabric,智能边缘平台 IEF,"Intelligent EdgeFabric meets customers' requirements for remote control, data processing, analysis and decision-making, and intelligence of edge computing resources, providing users with integrated services for complete edge and cloud collaboration.
+","智能边缘平台（Intelligent EdgeFabric ）满足客户对边缘计算资源的远程管控、数据处理、分析决策、智能化的诉求， 为用户提供完整的边缘和云协同的一体化服务
+
+"
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+User Support,Service Tickets,工单管理,,
+,HUAWEI CLOUD (International) FAQs,国际站常见问题,,
+,ICP License Service,备案中心,,
+,Enterprise Management,企业管理,,
+,Billing Center,费用中心,,
+,My Account,账号中心,,
+,Resource Center,资源中心,,
+,Support Plans,支持计划,,
+,Customer Operation Capabilities,客户运营能力,,
+,Partner Support Plans,合作伙伴支持计划,,
+,Professional Services,专业服务,,
+,,,,
+,,,,
+,,,,
+Other,Product Pricing Details,产品价格详情,,
+,System Permissions,系统权限,,
+,Console Quick Start,管理控制台快速入门,,
+,Common FAQs,公共问题,,
+,Instructions for Associating with a HUAWEI CLOUD Partner,客户关联华为云合作伙伴须知,,
+,My Credentials,我的凭证,,
+Developer Tools,SDK Developer Guide,SDK开发指南,,
+,API Request Signing Guide,API签名指南,,
+,Terraform,Terraform,,
+,,,,
+Price,Pricing Principles,价格原则,,
