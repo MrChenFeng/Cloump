@@ -1,295 +1,266 @@
-Products,aws_eng_name,aws_chn_name,eng_description,chn_description,
-Analytics/分析,Amazon Athena,雅典娜,"An interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL.
-Athena is serverless so there is no infrastructure to manage",使用 SQL 在 S3 中查询数据,
-,Amazon CloudSearch,云搜,"A simple and cost-effective service to set up, manage, and scale a search solution for your website or application automaticaly",托管型搜索服务,
-,Amazon Elasticsearch Service,弹性搜索服务,"Makes it easy for you to deploy, secure, and operate Elasticsearch at scale with zero down time
-Offers open-source Elasticsearch APIs, managed Kibana, and integrations with Logstash and other AWS Services, enabling you to securely ingest data from any source and search, analyze, and visualize it in real time.",运行和扩展 Elasticsearch 集群,
-,Amazon EMR,？,"An industry-leading cloud big data platform for processing vast amounts of data using open source tools such as Apache Spark, Apache Hive, Apache HBase, Apache Flink, Apache Hudi, and Presto. ",托管式 Hadoop 框架,
-,Amazon Kinesis,跃动流媒体服务,"Makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information
-Offers key capabilities to cost-effectively process streaming data at any scale, along with the flexibility to choose the tools that best suit the requirements of your application
-You can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications.",实时轻松收集、处理和分析视频和数据流,
-,Amazon Managed Streaming for Apache Kafka (Amazon MSK),Apache Kafka流媒体管理服务,"Makes it easy for you to build and run applications that use Apache Kafka to process streaming data
-An open-source platform for building real-time streaming data pipelines and applications
-You can use Apache Kafka APIs to populate data lakes, stream changes to and from databases, and power machine learning and analytics applications.",完全托管型 Apache Kafka 服务,
-,Amazon Redshift,红移,"A fast, scalable data warehouse that makes it simple and cost-effective to analyze all your data across your data warehouse and data lake.
-Delivers ten times faster performance than other data warehouses by using machine learning, massively parallel query execution, and columnar storage on high-performance disk",便捷、简易且经济高效的数据仓库,
-,Amazon QuickSight,迅界/快视,"Makes it easy to deliver insights to everyone in your organization.
-Lets you easily create and publish interactive dashboards that include ML Insights.
-Dashboards can then be accessed from any device, and embedded into your applications, portals, and websites.",针对云而构建的可扩展、无服务器、可嵌入且采用 ML 支持的 BI 服务,
-,AWS Data Exchange,数据交换,"A service that makes it easy for AWS customers to find, subscribe to and use third-party data in the cloud.",查找、订阅和使用云端第三方数据,
-,AWS Data Pipeline,数据工作流,"A web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premises data sources, at specified intervals
-You can regularly access your data where it’s stored, transform and process it at scale, and efficiently transfer the results to AWS services
-Helps you easily create complex data processing workloads that are fault tolerant, repeatable, and highly available.",适用于周期性数据驱动工作流的编排服务,
-,AWS Glue,胶水,"Extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics
-You can create and run an ETL job with a few clicks in the AWS Management Console. You simply point AWS Glue to your data stored on AWS, and AWS Glue discovers your data and stores the associated metadata (e.g. table definition and schema) in the AWS Glue Data Catalog",简单、可扩展的无服务器数据集成,
-,AWS Lake Formation,数据湖生成,"Makes it easy to set up a secure data lake in days.
-Lake Formation collects and catalogs data from databases and object storage, moves the data into your new Amazon S3 data lake, cleans and classifies data using machine learning algorithms, and secures access to your sensitive data.",在数天内构建安全的数据湖,
-,,,,,
-Application Integration/应用程序集成,AWS Step Functions针对分布式应用程序的协调服务,,"Lets you coordinate multiple AWS services into serverless workflows so you can build and update apps quickly
-You can design and run workflows that stitch together services such as AWS Lambda and Amazon ECS into feature-rich applications.",,
-,Amazon AppFlowSaaS 应用程序与 AWS 服务的无代码集成,,,,
-,Amazon EventBridge适用于 SaaS 应用程序和 AWS 服务的无服务器事件总线,,,,
-,Amazon Managed Workflows for Apache Airflow高度可用且安全的托管工作流程编排,,,,
-,Amazon MQ托管消息代理服务,,,,
-,Amazon Simple Notification Service (SNS)发布/订阅短信、电子邮件和移动推送通知,,,,
-,Amazon Simple Queue Service (SQS)托管型消息队列,,,,
-,AWS AppSync使用多个来源的恰当数据，为您的应用程序提供大规模支持,,,,
-,,,,,
-AWS Cost Management/AWS 成本管理,AWS Cost Explorer分析您的 AWS 成本和使用率,,,,
-,AWS 预算设置自定义成本和使用率预算,,,,
-,AWS 成本和使用情况报告获取全面的成本和使用率信息,,,,
-,预留实例报告深入了解您的预留实例 (RI),,,,
-,Savings Plans使用灵活的定价，最多可节省 72% 的计算使用量,,,,
-,,,,,
-Blockchain/区块链,Amazon Managed Blockchain创建并管理可扩展的区块链网络,,,,
-,Amazon Quantum Ledger Database (QLDB)完全托管型分类账数据库,,,,
-,,,,,
-Business Applications/业务应用程序,Alexa for Business使用 Alexa 为贵组织赋能,,,,
-,Amazon Chime轻松开展会议、视频通话和聊天,,,,
-,Amazon Honeycode（测试版）构建移动应用程序和 Web 应用程序而无需编程,,,,
-,Amazon WorkDocs安全的企业文档存储和共享,,,,
-,Amazon WorkMail安全的电子邮件和日程编排,,,,
-,,,,,
-Compute/计算,Amazon EC2,弹性计算服务,"A web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
-Allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon’s proven computing environment
-Reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change.",云端虚拟服务器,
-,Amazon EC2 Auto Scaling,弹性计算服务自动伸缩,"Helps you maintain application availability and allows you to automatically add or remove EC2 instances according to conditions you define
-You can use the fleet management features of EC2 Auto Scaling to maintain the health and availability of your fleet. You can also use the dynamic and predictive scaling features of EC2 Auto Scaling to add or remove EC2 instances. Dynamic scaling responds to changing demand and predictive scaling automatically schedules the right number of EC2 instances based on predicted demand.",自动扩展计算能力以满足需求,
-,Amazon Lightsail,轻帆,"The easiest way to get started with AWS for developers, small businesses, students, and other users who need a simple virtual private server (VPS) solution.
-Provides developers compute, storage, and networking capacity and capabilities to deploy and manage websites and web applications in the cloud.
-Includes everything you need to launch your project quickly – a virtual machine, SSD-based storage, data transfer, DNS management, and a static IP.",启动并管理虚拟专有服务器,
-,AWS Batch,批量负载处理,"Enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS.
-AWS Batch dynamically provisions the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted.
-AWS Batch plans, schedules, and executes your batch computing workloads across the full range of AWS compute services and features, such as Amazon EC2 and Spot Instances.",批量操作处理，规模不限,
-,AWS Elastic Beanstalk,,"An easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS
-Simply upload your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring.",运行并管理 Web 应用,
-,AWS Lambda,,"Lets you run code without provisioning or managing servers
-You can run code for virtually any type of application or backend service – all with zero administration.
-Upload your code and Lambda takes care of everything required to run and scale your code with high availability.",无需考虑服务器即可运行代码,
-,AWS Outposts,哨所,"Brings native AWS services, infrastructure, and operating models to virtually any data center, co-location space, or on-premises facility.
-You can use the same APIs, same tools, same hardware, and same functionality across on-premises and the cloud to deliver a truly consistent hybrid experience.
-Outposts can be used to support workloads that need to remain on-premises due to low latency or local data processing needs.
-",运行本地 AWS 基础设施,
-,AWS Serverless Application Repository,无服务器应用程序仓库,"A managed repository for serverless applications.
-It enables teams, organizations, and individual developers to store and share reusable applications, and easily assemble and deploy serverless architectures in powerful new ways.
-You can use pre-built applications from the Serverless Application Repository in your serverless architectures, helping you and your teams reduce duplicated work, ensure organizational best practices, and get to market faster.",发现、部署和发布无服务器应用程序,
-,AWS Snow ,“雪”系列,,聚合处理一系列物理设备和边缘站点中的数据，然后将其传输到 AWS,
-,AWS Wavelength,,,为 5G 设备交付超低延迟应用程序,
-,VMware Cloud on AWS,,,无需自定义硬件即可构建混合云,
-,,,,,
-Containers/容器,Amazon Elastic Container Registry,弹性容器注册表,,存储、管理和部署容器映像,
-,Amazon Elastic Container Service (ECS),弹性容器服务,,高度安全、可靠且可扩展的容器运行方式,
-,Amazon ECS Anywhere,随处见弹性容器服务,,（即将推出）您基础设施上的 ECS,
-,Amazon Elastic Kubernetes Service (EKS),弹性kubernetes服务,,最值得信赖的运行 Kubernetes 的方式,
-,Amazon EKS Anywhere,随处见弹性kubernetes服务,,（即将推出）您基础设施上的 Kubernetes,
-,Amazon EKS Distro运行一致的 Kubernetes 集群,,,,
-,AWS App2Container将现有应用程序容器化并迁移现有应用程序,,,,
-,AWS Copilot轻松部署和运行容器化应用程序,,,,
-,AWS Fargate适用于容器的无服务器计算,,,,
-,AWS 上的 Red Hat OpenShift 服务托管型 Red Hat OpenShift 集群,,,,
-,,,,,
-Contact Center/客户参与,Amazon Connect基于云端的联络中心服务,,,,
-,Amazon Pinpoint各渠道间的个性化用户参与度,,,,
-,Amazon Simple Email Service (SES)电子邮件发送和接收,,,,
-,,,,,
-Database/数据库,Amazon Aurora,极光,,高性能托管型关系数据库,
-,Amazon Aurora Serverless V2,极光无服务器版,,极光进阶版 即时扩展到每秒超过 100000 项事务,
-,Amazon DocumentDB,文档数据库,,（兼容 MongoDB）完全托管型文档数据库,
-,Amazon DynamoDB,迪纳摩数据库,,托管型 NoSQL 数据库,
-,Amazon ElastiCache,弹性缓存,,内存中缓存服务,
-,Amazon Keyspaces (for Apache Cassandra),,,托管型 Cassandra 兼容数据库,
-,Amazon Neptune,海王星数据库,,完全托管型图数据库服务,
-,Amazon Quantum Ledger Database (QLDB),分类账数据库,,完全托管型分类账数据库,
-,Amazon RDS,关系型数据库,,适用于 MySQL、PostgreSQL、Oracle、SQL Server 和 MariaDB 的托管型关系数据库服务,
-,Amazon RDS on VMware自动化本地数据库管理,,,,
-,Amazon Redshift,红移数据库,,便捷、简易且经济高效的数据仓库,
-,Amazon Timestream完全托管型时间序列数据库,,,,
-,AWS Database Migration Service以最短的停机时间迁移数据库,,,,
-,AWS Glue简单、可扩展的无服务器数据集成,,,,
-,,,,,
-Developer Tools/开发人员工具,Amazon CodeGuru查找最昂贵的代码行,,,,
-,Amazon CorrettoOpenJDK 的生产就绪型发行版,,,,
-,AWS Cloud Development Kit (CDK)使用代码对云基础设施建模,,,,
-,AWS Cloud9在云 IDE 中编写、运行和调试代码,,,,
-,AWS CloudShell基于浏览器的 Shell 环境,,,,
-,AWS CodeArtifact面向软件开发的安全、可扩展且经济实惠的构件管理,,,,
-,AWS CodeBuild生成和测试代码,,,,
-,AWS CodeCommit在私有 Git 存储库中存储代码,,,,
-,AWS CodeDeploy自动部署代码,,,,
-,AWS CodePipeline使用持续交付发布软件,,,,
-,AWS CodeStar开发和部署 AWS 应用程序,,,,
-,AWS 命令行界面用于管理 AWS 服务的统一工具,,,,
-,AWS Device Farm使用真实设备，在 AWS 云中测试 Android、iOS 和 Web 应用程序,,,,
-,AWS Fault Injection Simulator（即将推出）完全托管的混沌工程服务,,,,
-,AWS 工具和开发工具包适用于 AWS 的工具和开发工具包,,,,
-,AWS X-Ray分析和调试应用程序,,,,
-,,,,,
-End User Computing/终端用户计算,Amazon WorkSpaces云端虚拟桌面,,,,
-,Amazon AppStream 2.0将桌面应用程序安全地流式传输至浏览器,,,,
-,Amazon WorkLink支持移动访问内部网站,,,,
-,,,,,
-Front-End Web & Mobile/前端 Web 和移动应用程序,AWS Amplify构建和部署移动和 Web 应用程序,,,,
-,Amazon API Gateway构建、部署和管理 API,,,,
-,Amazon Location Service（预览版）安全且轻松地向应用程序添加位置数据,,,,
-,Amazon Pinpoint各渠道间的个性化用户参与度,,,,
-,AWS AppSync使用多个来源的恰当数据，为您的应用程序提供大规模支持,,,,
-,AWS Device Farm使用真实设备，在 AWS 云中测试 Android、iOS 和 Web 应用程序,,,,
-,,,,,
-Game Tech/游戏技术,Amazon GameLift简单、快速且经济高效的专用游戏服务器托管服务,,,,
-,Amazon Lumberyard一种免费的跨平台 3D 游戏引擎，与 AWS 和 Twitch 集成，提供完整源代码,,,,
-,,,,,
-Internet of Things/物联网,AWS IoT 1-Click一键创建 AWS Lambda 触发器,,,,
-,AWS IoT AnalyticsIoT 设备分析,,,,
-,AWS IoT Button可在云端编程的 Dash Button,,,,
-,AWS IoT Core将设备连接到云,,,,
-,AWS IoT Device DefenderIoT 设备的安全管理,,,,
-,Amazon IoT Device Management登记、组织和远程管理 IoT 设备,,,,
-,Amazon IoT EduKit了解如何构建简单的 IoT 应用程序,,,,
-,AWS IoT EventsIoT 事件检测和响应,,,,
-,AWS IoT Greengrass本地计算、消息收发和设备同步,,,,
-,AWS IoT SiteWiseIoT 数据收集器和解释器,,,,
-,AWS IoT Things Graph轻松联接设备和 Web 服务,,,,
-,AWS Partner Device CatalogAWS 兼容的 IoT 硬件精选目录,,,,
-,FreeRTOS适用于微控制器的实时操作系统,,,,
-,,,,,
-Machine Learning/机器学习,Amazon SageMaker大规模构建、训练和部署机器学习模型,,,,
-,Amazon Augmented AI轻松实施机器学习预测的人工审核,,,,
-,Amazon CodeGuru查找最昂贵的代码行,,,,
-,Amazon Comprehend发现文本中的洞察和关系,,,,
-,Amazon DevOps Guru采用机器学习技术的云运营服务,,,,
-,Amazon Elastic Inference深度学习推理加速,,,,
-,Amazon Forecast使用机器学习提高预测准确性,,,,
-,Amazon Fraud Detector更快发现更多在线欺诈行为,,,,
-,Amazon Kendra使用机器学习重新构建企业搜索,,,,
-,Amazon Lex构建语音和文本聊天机器人,,,,
-,Amazon Lookout for Equipment（预览版）通过分析传感器数据检测异常行为,,,,
-,Amazon Lookout for Metrics（预览版）检测指标中的异常,,,,
-,Amazon Lookout for Vision使用计算机视觉发现产品缺陷,,,,
-,Amazon Monitron端到端的设备监控系统,,,,
-,Amazon Personalize在应用程序中构建实时建议,,,,
-,Amazon Polly将文本转换为逼真的语音,,,,
-,Amazon Rekognition分析图像和视频,,,,
-,Amazon Textract从文档中提取文本和数据,,,,
-,Amazon Translate自然流利的语言翻译,,,,
-,Amazon Transcribe自动语音识别,,,,
-,AWS Deep Learning AMIAmazon EC2 上的深度学习,,,,
-,AWS Deep Learning Containers用于深度学习的 Docker 映像,,,,
-,AWS DeepComposer启用机器学习的音乐键盘,,,,
-,AWS DeepLens支持深度学习的摄像机,,,,
-,AWS DeepRacer由机器学习驱动的自动驾驶 1:18 比例赛车,,,,
-,AWS Inferentia机器学习推理芯片,,,,
-,AWS Panorama（预览版）借助边缘的计算机视觉提高运营效率,,,,
-,AWS 上的 Apache MXNet可扩展的开源深度学习框架,,,,
-,AWS 上的 PyTorch灵活的开源机器学习框架,,,,
-,TensorFlow on AWS开源机器智能库,,,,
-,,,,,
-Management & Governance/管理与监管,Amazon CloudWatch监控资源和应用程序,,,,
-,Amazon Managed Service for Grafana（预览版）强大的交互式数据可视化,,,,
-,Amazon Managed Service for Prometheus（预览版）高度可用、安全的容器监控,,,,
-,AWS Auto Scaling扩展多种资源以满足需求,,,,
-,AWS 聊天机器人适用于 AWS 的 ChatOps,,,,
-,AWS CloudFormation使用模版创建和管理资源,,,,
-,AWS CloudTrail跟踪用户活动和 API 使用情况,,,,
-,AWS 命令行界面用于管理 AWS 服务的统一工具,,,,
-,AWS 计算优化器确定最佳的 AWS 计算资源,,,,
-,AWS Config跟踪资源库存和变更,,,,
-,AWS Control Tower设置和管理安全、合规的多账户环境,,,,
-,AWS 控制台移动应用程序在外出时访问资源,,,,
-,AWS Distro for OpenTelemetry（预览版）收集相关的指标和跟踪,,,,
-,AWS License Manager跟踪、管理和控制许可证,,,,
-,AWS 管理控制台基于 Web 的用户界面,,,,
-,AWS Managed Services适用于 AWS 的基础设施运维管理,,,,
-,AWS OpsWorks利用 Chef 和 Puppet 实现操作自动化,,,,
-,AWS Organizations集中管控所有 AWS 账户,,,,
-,AWS Personal Health DashboardAWS 服务运行状况的个性化视图,,,,
-,AWS Proton（预览版）自动化的容器和无服务器部署管理,,,,
-,AWS Service Catalog创建和使用标准化产品,,,,
-,AWS Systems Manager了解运行状况并采取相应措施,,,,
-,AWS Trusted Advisor优化性能和安全性,,,,
-,AWS Well-Architected Tool检查并改进您的工作量,,,,
-,,,,,
-Media Services/媒体服务,Amazon Elastic Transcoder易用的可扩展媒体转码服务,,,,
-,Amazon Interactive Video Service托管型直播视频解决方案,,,,
-,Amazon Kinesis Video Streams处理和分析视频串流,,,,
-,AWS Elemental MediaConnect可靠且安全的实时视频传输,,,,
-,AWS Elemental MediaConvert转换基于文件的视频内容,,,,
-,AWS Elemental MediaLive转换直播视频内容,,,,
-,AWS Elemental MediaPackage视频发放和封装,,,,
-,AWS Elemental MediaStore媒体存储和简单的 HTTP 发放,,,,
-,AWS Elemental MediaTailor视频个性化和盈利,,,,
-,AWS Elemental 设备和软件本地媒体解决方案,,,,
-,,,,,
-Migration & Transfer/迁移与传输,AWS Migration Hub从一个位置跟踪迁移活动,,,,
-,AWS Application Discovery Service发现可用于简化迁移的本地应用程序,,,,
-,AWS Database Migration Service以最短的停机时间迁移数据库,,,,
-,AWS DataSync简单快速的在线数据传输,,,,
-,AWS Server Migration Service将本地服务器迁移到 AWS,,,,
-,AWS Snow 系列使用物理设备将数据传入或传出 AWS,,,,
-,AWS Transfer 系列完全托管型 SFTP、FTPS 和 FTP 服务,,,,
-,CloudEndure Migration自动实施到 AWS 云的大规模迁移,,,,
-,Migration Evaluator（以前称为“TSO Logic”）创建云迁移的业务案例,,,,
-,,,,,
-Networking & Content Delivery/联网和内容分发,Amazon VPC隔离型云资源,,,,
-,Amazon API Gateway构建、部署和管理 API,,,,
-,Amazon CloudFront全球内容分发网络,,,,
-,Amazon Route 53可扩展的域名系统 (DNS),,,,
-,AWS App Mesh监控和控制微服务,,,,
-,AWS Cloud Map用于查找发现云资源服务,,,,
-,AWS Direct ConnectAWS 专用网络连接,,,,
-,AWS Global Accelerator提高应用程序可用性和性能,,,,
-,AWS PrivateLink安全使用 AWS 云端托管型服务,,,,
-,AWS Transit Gateway轻松扩展 VPC 和账户连接,,,,
-,AWS VPN安全地访问您的网络资源,,,,
-,Elastic Load Balancing (ELB)在多个目标间分配传入流量,,,,
-,,,,,
-Quantum Technologies/量子技术,Amazon Braket探索和尝试量子计算,,,,
-,Amazon Quantum 解决方案实验室与量子计算专家合作,,,,
-,,,,,
-Robotics/机器人技术,AWS RoboMaker开发、测试和部署机器人技术应用,,,,
-,,,,,
-Satellite/卫星,AWS Ground Station完全托管型地面站即服务,,,,
-,,,,,
-"Security, Identity, & Compliance/安全性、身份与合规性",AWS Identity and Access Management (IAM)安全地管理服务和资源的使用权限,,,,
-,Amazon Cognito应用程序身份管理,,,,
-,Amazon Detective调查潜在的安全问题,,,,
-,Amazon GuardDuty托管型威胁侦测服务,,,,
-,Amazon Inspector分析应用程序安全性,,,,
-,Amazon Macie大规模发现和保护您的敏感数据,,,,
-,AWS Artifact按需访问 AWS 合规性报告,,,,
-,AWS Audit Manager持续审计您的 AWS 使用情况,,,,
-,AWS Certificate Manager预置、管理和部署 SSL/TLS 证书,,,,
-,AWS CloudHSM有助于实现监管合规的基于硬件的密钥存储,,,,
-,AWS Directory Service托管并管理 Active Directory,,,,
-,AWS Firewall Manager集中管理防火墙规则,,,,
-,AWS Key Management Service管理型密钥创建和控制,,,,
-,AWS Network Firewall保护您的 VPC 的网络安全,,,,
-,AWS Resource Access Manager用于 AWS 资源共享且简捷安全的服务,,,,
-,AWS Secrets Manager更改、管理和检索密钥,,,,
-,AWS Security Hub一体化安全与合规中心,,,,
-,AWS ShieldDDoS 保护,,,,
-,AWS Single Sign-On云单点登录 (SSO) 服务,,,,
-,AWS WAF过滤恶意 Web 流量,,,,
-,,,,,
-Serverless/无服务器,AWS Lambda无需考虑服务器即可运行代码,,,,
-,Amazon API Gateway构建、部署和管理 API,,,,
-,Amazon DynamoDB托管型 NoSQL 数据库,,,,
-,Amazon EventBridge适用于 SaaS 应用程序和 AWS 服务的无服务器事件总线,,,,
-,Amazon Simple Notification Service (SNS)发布/订阅短信、电子邮件和移动推送通知,,,,
-,Amazon Simple Queue Service (SQS)托管型消息队列,,,,
-,Amazon Simple Storage Service (S3)云中的可扩展存储,,,,
-,AWS AppSync使用多个来源的恰当数据，为您的应用程序提供大规模支持,,,,
-,AWS Fargate适用于容器的无服务器计算,,,,
-,AWS Step Functions针对分布式应用程序的协调服务,,,,
-,,,,,
-Storage/存储,Amazon Simple Storage Service (S3)云端可扩展存储,,,,
-,Amazon Elastic Block Store (EBS)EC2 Block Storage 卷,,,,
-,Amazon Elastic File System (EFS)针对 EC2 的完全托管型文件系统,,,,
-,Amazon FSx for Lustre与 S3 集成的高性能文件系统,,,,
-,Amazon FSx for Windows File Server完全托管型 Windows 原生文件系统,,,,
-,Amazon S3 Glacier云端低成本存档存储,,,,
-,AWS Backup跨 AWS 服务进行集中备份,,,,
-,AWS Snow 系列在恶劣环境或联接断开的环境中使用的物理边缘计算和存储设备,,,,
-,AWS Storage Gateway混合存储集成,,,,
-,CloudEndure Disaster Recovery高度自动化的灾难恢复,,,,
-,,,,,
-VR & AR/虚拟现实和增强现实,Amazon Sumerian构建和运行 VR 和 AR 应用程序,,,,
+Products,aws_eng_name,aws_chn_name,eng_description,chn_description
+Analytics/分析,Amazon Athena,亚马逊雅典娜,Querying data in S3 using SQL,使用 SQL 在 S3 中查询数据
+,Amazon CloudSearch,亚马逊云搜索,Hosted Search Services,托管型搜索服务
+,Amazon Elasticsearch Service,亚马逊Elasticsearch服务,Running and Scaling an Elasticsearch Cluster,运行和扩展 Elasticsearch 集群
+,Amazon EMR,亚马逊EMR,Hosted Hadoop Framework,托管式 Hadoop 框架
+,Amazon Kinesis,亚马逊Kinesis,"Easily collect, process, and analyze video and data streams in real time",实时轻松收集、处理和分析视频和数据流
+,Amazon Managed Streaming for Apache Kafka (Amazon MSK),Amazon Managed Streaming for Apache Kafka (Amazon MSK),Fully managed Apache Kafka service,完全托管型 Apache Kafka 服务
+,Amazon Redshift,亚马逊Redshift,"Convenient, easy and cost-effective data warehouse",便捷、简易且经济高效的数据仓库
+,Amazon QuickSight,亚马逊QuickSight,"Scalable, serverless, embeddable, ML-enabled BI services built for the cloud",针对云而构建的可扩展、无服务器、可嵌入且采用 ML 支持的 BI 服务
+,AWS Data Exchange,AWS数据交换,"Find, subscribe and use third-party data in the cloud",查找、订阅和使用云端第三方数据
+,AWS Data Pipeline,AWS数据管道,Orchestration services for recurring data-driven workflows,适用于周期性数据驱动工作流的编排服务
+,AWS Glue,AWS胶水,"Simple, scalable serverless data integration",简单、可扩展的无服务器数据集成
+,AWS Lake Formation,AWS数据湖生成,Build secure data lakes in days,在数天内构建安全的数据湖
+,,,,
+Application Integration/应用程序集成,AWS Step Functions,AWS步骤功能,Orchestration services for distributed applications,针对分布式应用程序的协调服务
+,Amazon AppFlowSaaS ,亚马逊AppFlowSaaS ,Codeless integration of applications with AWS services,应用程序与 AWS 服务的无代码集成
+,Amazon EventBridge,Amazon EventBridge,Serverless event bus for SaaS applications and AWS services,适用于 SaaS 应用程序和 AWS 服务的无服务器事件总线
+,Amazon Managed Workflows for Apache Airflow,Apache Airflow的亚马逊托管工作流,Highly available and secure managed workflow orchestration,高度可用且安全的托管工作流程编排
+,Amazon MQ,亚马逊MQ,Hosted messaging agent services,托管消息代理服务
+,Amazon Simple Notification Service (SNS),亚马逊简单通知服务(SNS),"Publish/subscribe to SMS, email and mobile push notifications",发布/订阅短信、电子邮件和移动推送通知
+,Amazon Simple Queue Service (SQS),亚马逊简单队列服务(SQS),Hosted message queues,托管型消息队列
+,AWS AppSync,AWS AppSync,Support your applications at scale with the right data from multiple sources,使用多个来源的恰当数据，为您的应用程序提供大规模支持
+,,,,
+AWS Cost Management/AWS 成本管理,AWS Cost Explorer,AWS成本浏览器,Analyze your AWS costs and utilization,分析您的 AWS 成本和使用率
+,AWS Budgets,AWS预算,Set custom cost and utilization budgets,设置自定义成本和使用率预算
+,AWS Cost and Usage Report,AWS成本和使用报告,Get comprehensive cost and utilization information,获取全面的成本和使用率信息
+,Reserved Instance Reporting,保留实例报告,Gain insight into your Reserved Instances (RI),深入了解您的预留实例 (RI)
+,Savings Plans,储蓄计划,Save up to 72% on compute usage with flexible pricing,使用灵活的定价，最多可节省 72% 的计算使用量
+,,,,
+Blockchain/区块链,Amazon Managed Blockchain,亚马逊托管区块链,Create and manage a scalable blockchain network,创建并管理可扩展的区块链网络
+,Amazon Quantum Ledger Database (QLDB),亚马逊量子账数据库(QLDB),Fully managed ledger database,完全托管型分类账数据库
+,,,,
+Business Applications/业务应用程序,Alexa for Business,Alexa for Business,Empower your organization with Alexa,使用 Alexa 为贵组织赋能
+,Amazon Chime,亚马逊风铃,"Easily conduct meetings, video calls and chats",轻松开展会议、视频通话和聊天
+,Amazon Honeycode,亚马逊蜂蜜码,(Beta) Build mobile apps and web apps without programming,（测试版）构建移动应用程序和 Web 应用程序而无需编程
+,Amazon WorkDocs,亚马逊WorkDocs,Secure enterprise document storage and sharing,安全的企业文档存储和共享
+,Amazon WorkMail,亚马逊WorkMail,Secure email and scheduling,安全的电子邮件和日程编排
+,,,,
+Compute/计算,Amazon EC2,亚马逊EC2,Cloud-based virtual servers,云端虚拟服务器
+,Amazon EC2 Auto Scaling,亚马逊EC2自动扩展,Automatically scale computing power to meet demand,自动扩展计算能力以满足需求
+,Amazon Lightsail,亚马逊光帆,Launch and manage virtual proprietary servers,启动并管理虚拟专有服务器
+,AWS Batch,AWS批量,Batch operation processing at any size,批量操作处理，规模不限
+,AWS Elastic Beanstalk,AWS Elastic Beanstalk,Run and manage web applications,运行并管理 Web 应用
+,AWS Lambda,AWS Lambda,Run code without thinking about servers,无需考虑服务器即可运行代码
+,AWS Outposts,AWS前哨,Run local AWS infrastructure,运行本地 AWS 基础设施
+,AWS Serverless Application Repository,AWS无服务器应用存储库,"Discover, deploy and publish serverless applications",发现、部署和发布无服务器应用程序
+,AWS Snow ,AWS Snow ,"Aggregate and process data across a range of physical devices and edge sites, then transfer it to AWS",聚合处理一系列物理设备和边缘站点中的数据，然后将其传输到 AWS
+,AWS Wavelength,AWS波长,Deliver ultra-low latency applications for 5G devices,为 5G 设备交付超低延迟应用程序
+,VMware Cloud on AWS,VMware Cloud on AWS,Build hybrid clouds without custom hardware,无需自定义硬件即可构建混合云
+,,,,
+Containers/容器,Amazon Elastic Container Registry,亚马逊弹性容器注册表,"Store, manage and deploy container images",存储、管理和部署容器映像
+,Amazon Elastic Container Service (ECS),亚马逊弹性容器服务(ECS),"Highly secure, reliable and scalable container operations",高度安全、可靠且可扩展的容器运行方式
+,Amazon ECS Anywhere,亚马逊 ECS Anywhere,(Coming soon) ECS on your infrastructure,（即将推出）您基础设施上的 ECS
+,Amazon Elastic Kubernetes Service (EKS),亚马逊弹性Kubernetes服务(EKS),The most trusted way to run Kubernetes,最值得信赖的运行 Kubernetes 的方式
+,Amazon EKS Anywhere,亚马逊EKS Anywhere,(coming soon) Kubernetes on your infrastructure,（即将推出）您基础设施上的 Kubernetes
+,Amazon EKS Distro,亚马逊EKS发行版,Run a consistent Kubernetes cluster,运行一致的 Kubernetes 集群
+,AWS App2Container,AWS App容器,Containerize existing applications and migrate existing applications,将现有应用程序容器化并迁移现有应用程序
+,AWS Copilot,AWS Copilot,Easily deploy and run containerized applications,轻松部署和运行容器化应用程序
+,AWS Fargate,AWS Fargate,Serverless Computing for Containers,适用于容器的无服务器计算
+,AWS Red Hat OpenShift,AWS Red Hat OpenShift 服务,Hosted Red Hat OpenShift clusters,托管型 Red Hat OpenShift 集群
+,,,,
+Contact Center/客户参与,Amazon Connect,亚马逊连接,Cloud-based contact center services,基于云端的联络中心服务
+,Amazon Pinpoint,亚马逊针刺,Personalized user engagement across channels,各渠道间的个性化用户参与度
+,Amazon Simple Email Service (SES),亚马逊简单电子邮件服务(SES),Email Delivery and Receipt,电子邮件发送和接收
+,,,,
+Database/数据库,Amazon Aurora,亚马逊极光,High Performance Managed Relational Database,高性能托管型关系数据库
+,Amazon Aurora Serverless V2,亚马逊Aurora Serverless V2,"Aurora Advanced Edition Instantly scales to over 100,000 transactions per second",极光进阶版 即时扩展到每秒超过 100000 项事务
+,Amazon DocumentDB,亚马逊文档数据库,Fully managed document database (MongoDB compatible),（兼容 MongoDB）完全托管型文档数据库
+,Amazon DynamoDB,亚马逊DynamoDB,Hosted NoSQL database,托管型 NoSQL 数据库
+,Amazon ElastiCache,亚马逊ElastiCache,In-memory caching services,内存中缓存服务
+,Amazon Keyspaces (for Apache Cassandra),亚马逊Keyspaces(用于Apache Cassandra),Hosted Cassandra-compatible database,托管型 Cassandra 兼容数据库
+,Amazon Neptune,亚马逊海王星,Fully Managed Graph Database Service,完全托管型图数据库服务
+,Amazon Quantum Ledger Database (QLDB),亚马逊量子账数据库(QLDB),Fully Managed Ledger Database,完全托管型分类账数据库
+,Amazon RDS,亚马逊RDS,"Managed Relational Database Services for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB",适用于 MySQL、PostgreSQL、Oracle、SQL Server 和 MariaDB 的托管型关系数据库服务
+,Amazon RDS on VMware,VMware上的亚马逊RDS,Automated Local Database Management,自动化本地数据库管理
+,Amazon Redshift,亚马逊Redshift,"Convenient, easy and cost-effective data warehousing",便捷、简易且经济高效的数据仓库
+,Amazon Timestream,亚马逊时间流,Fully Managed Time Series Database,完全托管型时间序列数据库
+,AWS Database Migration Service,AWS数据库迁移服务,Migrate databases with minimal downtime,以最短的停机时间迁移数据库
+,AWS Glue,AWS胶水,"Simple, scalable serverless data integration",简单、可扩展的无服务器数据集成
+,,,,
+Developer Tools/开发人员工具,Amazon CodeGuru,亚马逊CodeGuru,Find your most expensive lines of code,查找最昂贵的代码行
+,Amazon Corretto,亚马逊Corretto,Production-ready distribution of OpenJDK,OpenJDK 的生产就绪型发行版
+,AWS Cloud Development Kit (CDK),AWS云开发工具包（CDK,Model cloud infrastructure using code,使用代码对云基础设施建模
+,AWS Cloud9,AWS云9,"Write, run, and debug code on a cloud IDE",在云 IDE 中编写、运行和调试代码
+,AWS CloudShell,AWS CloudShell,Browser-based shell environment,基于浏览器的 Shell 环境
+,AWS CodeArtifact,AWS CodeArtifact,"Secure, scalable, and cost-effective artifact management for software development",面向软件开发的安全、可扩展且经济实惠的构件管理
+,AWS CodeBuild,AWS CodeBuild,Build and test code,生成和测试代码
+,AWS CodeCommit,AWS CodeCommit,Store code in private Git repositories,在私有 Git 存储库中存储代码
+,AWS CodeDeploy,AWS CodeDeploy,Automate code deployments,自动部署代码
+,AWS CodePipeline,AWS CodePipeline,Release software using continuous delivery,使用持续交付发布软件
+,AWS CodeStar,AWS CodeStar,Develop and deploy AWS applications,开发和部署 AWS 应用程序
+,AWS Command Line ,AWS命令行 ,InterfaceUnified tool to manage AWS services,用于管理 AWS 服务的统一工具
+,AWS Device Farm,AWS设备农场,"Test Android, iOS, and web apps on real devices in the AWS cloud",使用真实设备，在 AWS 云中测试 Android、iOS 和 Web 应用程序
+,AWS Fault Injection Simulator,AWS故障注入模拟器,Fully managed fault injection service,（即将推出）完全托管的混沌工程服务
+,AWS Tools and SDKs,AWS工具和SDK,Tools and SDKs for AWS,适用于 AWS 的工具和开发工具包
+,AWS X-Ray,AWS X-Ray,Analyze and debug your applications,分析和调试应用程序
+,,,,
+End User Computing/终端用户计算,Amazon WorkSpaces,亚马逊工作空间,Cloud-based Virtual Desktop,云端虚拟桌面
+,Amazon AppStream 2.0,亚马逊应用流2.0,Securely stream desktop applications to the browser,将桌面应用程序安全地流式传输至浏览器
+,Amazon WorkLink,亚马逊工作链接,Support mobile access to internal websites,支持移动访问内部网站
+,,,,
+Front-End Web & Mobile/前端 Web 和移动应用程序,AWS Amplify,AWS放大器,Build and deploy mobile and web applications,构建和部署移动和 Web 应用程序
+,Amazon API Gateway,亚马逊API网关,"Build, deploy and manage APIs",构建、部署和管理 API
+,Amazon Location Service,亚马逊位置服务,(Preview) Securely and easily add location data to applications,（预览版）安全且轻松地向应用程序添加位置数据
+,Amazon Pinpoint,亚马逊针刺,Personalize user engagement across channels,各渠道间的个性化用户参与度
+,AWS AppSync,AWS AppSync,Use the right data from multiple sources to support your applications at scale,使用多个来源的恰当数据，为您的应用程序提供大规模支持
+,AWS Device Farm,AWS设备农场,"Test Android, iOS and web apps in the AWS cloud using real devices",使用真实设备，在 AWS 云中测试 Android、iOS 和 Web 应用程序
+,,,,
+Game Tech/游戏技术,Amazon GameLift,亚马逊GameLift,"Simple, fast and cost-effective dedicated game server hosting",简单、快速且经济高效的专用游戏服务器托管服务
+,Amazon Lumberyard,亚马逊伐木场,"A free, cross-platform 3D game engine that integrates with AWS and Twitch, with full source code available",一种免费的跨平台 3D 游戏引擎，与 AWS 和 Twitch 集成，提供完整源代码
+,,,,
+Internet of Things/物联网,AWS IoT 1-Click,AWS物联网一键,Create AWS Lambda Triggers with One Click,一键创建 AWS Lambda 触发器
+,AWS IoT Analytics,AWS物联网分析,IoT Device Analytics,IoT 设备分析
+,AWS IoT Button,AWS物联网按钮,Dash Button Programmable in the Cloud,可在云端编程的 Dash Button
+,AWS IoT Core,AWS物联网核心,Connecting Devices to the Cloud,将设备连接到云
+,AWS IoT Device Defender,AWS IoT设备卫士,Secure Management of IoT Devices,IoT 设备的安全管理
+,Amazon IoT Device Management,亚马逊IoT设备管理,"Register, organize, and remotely manage IoT devices",登记、组织和远程管理 IoT 设备
+,Amazon IoT EduKit,亚马逊IoT EduKit,Learn how to build simple IoT applications,了解如何构建简单的 IoT 应用程序
+,AWS IoT Events,AWS物联网活动,IoT event detection and response,IoT 事件检测和响应
+,AWS IoT Greengrass,AWS物联网Greengrass,"Local computing, message sending and receiving, and device synchronization",本地计算、消息收发和设备同步
+,AWS IoT SiteWise,AWS IoT SiteWise,IoT data collectors and interpreters,IoT 数据收集器和解释器
+,AWS IoT Things Graph,AWS物联网物图,Easily connect devices and Web services,轻松联接设备和 Web 服务
+,AWS Partner Device Catalog,AWS合作伙伴设备目录,A curated catalog of AWS-compatible IoT hardware,AWS 兼容的 IoT 硬件精选目录
+,FreeRTOS,FreeRTOS,Real-Time Operating Systems for Microcontrollers,适用于微控制器的实时操作系统
+,,,,
+Machine Learning/机器学习,Amazon SageMaker,亚马逊SageMaker,"Build, train and deploy machine learning models at scale",大规模构建、训练和部署机器学习模型
+,Amazon Augmented AI,亚马逊增强型AI,Easily implement human audits of machine learning predictions,轻松实施机器学习预测的人工审核
+,Amazon CodeGuru,亚马逊CodeGuru,Find the most expensive lines of code,查找最昂贵的代码行
+,Amazon Comprehend,亚马逊理解,Discover insights and relationships in text,发现文本中的洞察和关系
+,Amazon DevOps Guru,亚马逊DevOps大师,Cloud Operations Services with Machine Learning Technology,采用机器学习技术的云运营服务
+,Amazon Elastic Inference,亚马逊弹性推理,Deep Learning Inference Acceleration,深度学习推理加速
+,Amazon Forecast,亚马逊预测,Improve prediction accuracy using machine learning,使用机器学习提高预测准确性
+,Amazon Fraud Detector,亚马逊欺诈检测器,Discover More Online Fraud Faster,更快发现更多在线欺诈行为
+,Amazon Kendra,亚马逊Kendra,Refactor Enterprise Search with Machine Learning,使用机器学习重新构建企业搜索
+,Amazon Lex,亚马逊Lex,Build voice and text chatbots,构建语音和文本聊天机器人
+,Amazon Lookout for Equipment,亚马逊设备寻找,(Preview) Detecting Abnormal Behavior by Analyzing Sensor Data,（预览版）通过分析传感器数据检测异常行为
+,Amazon Lookout for Metrics,亚马逊指标寻找,(Preview) Detecting anomalies in metrics,（预览版）检测指标中的异常
+,Amazon Lookout for Vision,亚马逊视觉寻找,Discover product defects using computer vision,使用计算机视觉发现产品缺陷
+,Amazon Monitron,亚马逊Monitron,End-to-end device monitoring system,端到端的设备监控系统
+,Amazon Personalize,亚马逊个性化,Build real-time suggestions in applications,在应用程序中构建实时建议
+,Amazon Polly,亚马逊波利,Converting text to realistic speech,将文本转换为逼真的语音
+,Amazon Rekognition,亚马逊再识别,Analyze images and videos,分析图像和视频
+,Amazon Textract,亚马逊Textract,Extract text and data from documents,从文档中提取文本和数据
+,Amazon Translate,亚马逊翻译,Naturally fluent language translation,自然流利的语言翻译
+,Amazon Transcribe,亚马逊转录,Automatic speech recognition,自动语音识别
+,AWS Deep Learning AMI,AWS深度学习AMI,Deep Learning on Amazon EC2,Amazon EC2 上的深度学习
+,AWS Deep Learning Containers,AWS深度学习容器,Docker images for deep learning,用于深度学习的 Docker 映像
+,AWS DeepComposer,AWS DeepComposer,Machine Learning Enabled Music Keyboard,启用机器学习的音乐键盘
+,AWS DeepLens,AWS DeepLens,Deep learning-enabled cameras,支持深度学习的摄像机
+,AWS DeepRacer,AWS DeepRacer,Self-driving 1:18 scale race cars powered by machine learning,由机器学习驱动的自动驾驶 1:18 比例赛车
+,AWS Inferentia,AWS Inferentia,Machine Learning Inference Chip,机器学习推理芯片
+,AWS Panorama,AWS Panorama,(Preview) Improving Operational Efficiency with Computer Vision at the Edge,（预览版）借助边缘的计算机视觉提高运营效率
+,Apache MXNet on AWS,Apache MXNet on AWS,"Scalable, open-source deep learning framework",可扩展的、开源的深度学习框架
+,PyTorch on AWS,PyTorch on AWS,Flexible open-source machine learning framework,灵活的开源机器学习框架
+,TensorFlow on AWS,TensorFlow on AWS,Open-source machine intelligence library,开源的机器智能库
+,,,,
+Management & Governance/管理与监管,Amazon CloudWatch,亚马逊云观察,Monitor resources and applications,监测资源和应用程序
+,Amazon Managed Service for Grafana,Grafana的亚马逊管理服务,(Preview)Powerful interactive data visualizations,(预览)强大的交互式数据可视化
+,Amazon Managed Service for Prometheu,亚马逊Prometheu管理服务,"(Preview)Highly available, secure monitoring for containers",(预览)容器的高可用性、安全监控
+,AWS Auto Scaling,AWS自动扩展,Scale multiple resources to meet demand,扩展多种资源以满足需求
+,AWS Chatbot,AWS聊天机器人,ChatOps for AWS,AWS的ChatOps
+,AWS CloudFormation,AWS CloudFormation,Create and manage resources with templates,使用模板创建和管理资源
+,AWS CloudTrail,AWS CloudTrail,Track user activity and API usage,跟踪用户活动和API使用情况
+,AWS Command Line,AWS命令行,InterfaceUnified tool to manage AWS services,接口管理AWS服务的统一工具
+,AWS Compute Optimizer,AWS计算优化器,Identify optimal AWS Compute resources,确定最佳的AWS计算资源
+,AWS Config,AWS配置,Track resources inventory and changes,跟踪资源库存和变化
+,AWS Control Tower,AWS控制塔,"Set up and govern a secure, compliant multi-account environment",建立和管理一个安全、合规的多账户环境。
+,AWS Console Mobile Application,AWS控制台移动应用,Access resources on the go,随时随地获取资源
+,AWS Distro for OpenTelemetry,OpenTelemetry的AWS发行版,(Preview)Collect correlated metrics and traces,(预览)收集相关的指标和痕迹。
+,AWS License Manager,AWS许可证管理器,"Track, manage, and control licenses",跟踪、管理和控制许可证
+,AWS Management Console,AWS管理控制台,Web-based user interface,基于网络的用户界面
+,AWS Managed Services,AWS管理服务,Infrastructure operations management for AWS,AWS的基础设施运营管理
+,AWS OpsWorks,AWS OpsWorks,Automate operations with Chef and Puppet,使用Chef和Puppet实现自动化操作
+,AWS Organizations,AWS组织,Central governance and management across AWS accounts,对AWS账户进行集中治理和管理
+,AWS Personal Health Dashboard,AWS个人健康仪表板,Personalized view of AWS service health,个性化的AWS服务健康视图
+,AWS Proton ,AWS质子 ,(Preview)Automated management for container and serverless deployment,(预览)容器和无服务器部署的自动化管理。
+,AWS Service Catalog,AWS服务目录,Create and use standardized products,创建和使用标准化产品
+,AWS Systems Manager,AWS系统经理,Gain operational insights and take action,获得业务洞察力并采取行动
+,AWS Trusted Advisor,AWS可信顾问,Optimize performance and security,优化性能和安全性
+,AWS Well-Architected Tool,AWS精心架构的工具,Review and improve your workloads,审查并改进您的工作量
+,,,,
+Media Services/媒体服务,Amazon Elastic Transcoder,亚马逊弹性转码器,Easy-to-use scalable media transcoding service,易用的可扩展媒体转码服务
+,Amazon Interactive Video Service,亚马逊互动视频服务,Hosted live video solution,托管型直播视频解决方案
+,Amazon Kinesis Video Streams,亚马逊Kinesis视频流,Process and analyze video streams,处理和分析视频串流
+,AWS Elemental MediaConnect,AWS Elemental MediaConnect,Reliable and secure live video delivery,可靠且安全的实时视频传输
+,AWS Elemental MediaConvert,AWS Elemental MediaConvert,Convert file-based video content,转换基于文件的视频内容
+,AWS Elemental MediaLive,AWS Elemental MediaLive,Convert live video content,转换直播视频内容
+,AWS Elemental MediaPackage,AWS Elemental MediaPackage,Video Distribution and Encapsulation,视频发放和封装
+,AWS Elemental MediaStore,AWS Elemental MediaStore,Media storage and simple HTTP distribution,媒体存储和简单的 HTTP 发放
+,AWS Elemental MediaTailor,AWS Elemental MediaTailor,Video personalization and monetization,视频个性化和盈利
+,AWS Elemental ,AWS元素 ,Device and software native media solutions,设备和软件本地媒体解决方案
+,,,,
+Migration & Transfer/迁移与传输,AWS Migration Hub,AWS迁移枢纽,Track migration activity from one location,从一个位置跟踪迁移活动
+,AWS Application Discovery Service,AWS应用发现服务,Discover local applications that can be used to streamline migration,发现可用于简化迁移的本地应用程序
+,AWS Database Migration Service,AWS数据库迁移服务,Migrate databases with minimal downtime,以最短的停机时间迁移数据库
+,AWS DataSync,AWS DataSync数据同步,Simple and fast online data transfer,简单快速的在线数据传输
+,AWS Server Migration Service,AWS服务器迁移服务,Migrate local servers to AWS,将本地服务器迁移到 AWS
+,AWS Snow Family,AWS雪家族,Transfer data in and out of AWS using physical devices,使用物理设备将数据传入或传出 AWS
+,AWS Transfer Family,AWS转移家族,"Fully managed SFTP, FTPS and FTP services",完全托管型 SFTP、FTPS 和 FTP 服务
+,CloudEndure Migration,云端迁移,Automate large scale migrations to the AWS cloud,自动实施到 AWS 云的大规模迁移
+,Migration Evaluator (Formerly TSO Logic),迁移评估（原TSO Logic）。,Create a business case for cloud migration,创建云迁移的业务案例
+,,,,
+Networking & Content Delivery/联网和内容分发,Amazon VPC,亚马逊VPC,Isolated Cloud Resources,隔离型云资源
+,Amazon API Gateway,亚马逊API网关,"Build, deploy and manage APIs",构建、部署和管理 API
+,Amazon CloudFront,亚马逊云锋,Global Content Delivery Network,全球内容分发网络
+,Amazon Route 53,亚马逊53号公路,Scalable Domain Name System (DNS),可扩展的域名系统 (DNS)
+,AWS App Mesh,AWS应用网格,Monitor and control microservices,监控和控制微服务
+,AWS Cloud Map,AWS云图,For finding and discovering cloud resource services,用于查找发现云资源服务
+,AWS Direct ConnectAWS ,AWS Direct ConnectAWS ,Dedicated network connectivity,专用网络连接
+,AWS Global Accelerator,AWS全球加速器,Improve application availability and performance,提高应用程序可用性和性能
+,AWS PrivateLink,AWS PrivateLink,Secure use of AWS cloud-based managed services,安全使用 AWS 云端托管型服务
+,AWS Transit Gateway,AWS过境网关,Easily scale VPC and account connections,轻松扩展 VPC 和账户连接
+,AWS VPN,AWS VPN,Securely access your network resources,安全地访问您的网络资源
+,Elastic Load Balancing (ELB),弹性负载均衡(ELB),Distribute incoming traffic across multiple destinations,在多个目标间分配传入流量
+,,,,
+Quantum Technologies/量子技术,Amazon Braket,亚马逊刹车片,Exploring and experimenting with quantum computing,探索和尝试量子计算
+,Amazon Quantum ,亚马逊量子 ,Solutions Lab collaborates with quantum computing experts,解决方案实验室与量子计算专家合作
+,,,,
+Robotics/机器人技术,AWS RoboMaker,AWS RoboMaker,"Developing, testing and deploying robotics applications",开发、测试和部署机器人技术应用
+,,,,
+Satellite/卫星,AWS Ground Station,AWS地面站,Fully managed ground station-as-a-service,完全托管型地面站即服务
+,,,,
+"Security, Identity, & Compliance/安全性、身份与合规性",AWS Identity and Access Management (IAM),AWS身份和访问管理(IAM),Manage access to services and resources securely,安全地管理服务和资源的使用权限
+,Amazon Cognito,亚马逊Cognito,Application Identity Management,应用程序身份管理
+,Amazon Detective,亚马逊侦探,Investigate potential security issues,调查潜在的安全问题
+,Amazon GuardDuty,亚马逊GuardDuty,Hosted Threat Detection Services,托管型威胁侦测服务
+,Amazon Inspector,亚马逊检查员,Analyze application security,分析应用程序安全性
+,Amazon Macie,亚马逊Macie,Massive discovery and protection of your sensitive data,大规模发现和保护您的敏感数据
+,AWS Artifact,AWS Artifact,On-demand access to AWS compliance reports,按需访问 AWS 合规性报告
+,AWS Audit Manager,AWS审计管理,Continuously audit your AWS usage,持续审计您的 AWS 使用情况
+,AWS Certificate Manager,AWS证书管理器,"Premise, manage and deploy SSL/TLS certificates",预置、管理和部署 SSL/TLS 证书
+,AWS CloudHSM,AWSCloudHSM,Hardware-based key storage for regulatory compliance,有助于实现监管合规的基于硬件的密钥存储
+,AWS Directory Service,AWS目录服务,Host and manage Active Directory,托管并管理 Active Directory
+,AWS Firewall Manager,AWS防火墙管理器,Centrally manage firewall rules,集中管理防火墙规则
+,AWS Key Management Service,AWS密钥管理服务,Managed key creation and control,管理型密钥创建和控制
+,AWS Network Firewall,AWS网络防火墙,Secure your VPC's network,保护您的 VPC 的网络安全
+,AWS Resource Access Manager,AWS资源访问管理器,Simple and secure services for AWS resource sharing,用于 AWS 资源共享且简捷安全的服务
+,AWS Secrets Manager,AWS秘密管理器,"Change, manage and retrieve keys",更改、管理和检索密钥
+,AWS Security Hub,AWS安全中心,All-in-one security and compliance center,一体化安全与合规中心
+,AWS Shield,AWS盾牌,DDoS Protection,DDoS 保护
+,AWS Single Sign-On,AWS单点登录,Cloud single sign-on (SSO) services,云单点登录 (SSO) 服务
+,AWS WAF,AWS网络防火墙,Filter malicious web traffic/network firewall,过滤恶意 Web 流量/网络防火墙
+,,,,
+Serverless/无服务器,AWS Lambda,AWS Lambda,Run code without thinking about servers,无需考虑服务器即可运行代码
+,Amazon API Gateway,亚马逊API网关,"Build, deploy and manage APIs",构建、部署和管理 API
+,Amazon DynamoDB,亚马逊DynamoDB,Hosted NoSQL Database,托管型 NoSQL 数据库
+,Amazon EventBridge,亚马逊事件桥服务,Serverless event bus for SaaS applications and AWS services,适用于 SaaS 应用程序和 AWS 服务的无服务器事件总线
+,Amazon Simple Notification Service (SNS),亚马逊简单通知服务(SNS),"Publish/subscribe to SMS, email and mobile push notifications",发布/订阅短信、电子邮件和移动推送通知
+,Amazon Simple Queue Service (SQS),亚马逊简单队列服务(SQS),Hosted Message Queues,托管型消息队列
+,Amazon Simple Storage Service (S3),亚马逊简单存储服务(S3),Scalable Storage in the Cloud,云中的可扩展存储
+,AWS AppSync,AWS AppSync,Support your applications at scale with the right data from multiple sources,使用多个来源的恰当数据，为您的应用程序提供大规模支持
+,AWS Fargate,AWS Fargate,Serverless computing for containers,适用于容器的无服务器计算
+,AWS Step Functions,AWS步进函数,Orchestration services for distributed applications,针对分布式应用程序的协调服务
+,,,,
+Storage/存储,Amazon Simple Storage Service (S3),亚马逊简单存储服务(S3),Cloud Scalable Storage,云端可扩展存储
+,Amazon Elastic Block Store (EBS),亚马逊弹性区块商店（EBS,"EC2 Block Storage Volumes, Block Storage",EC2 Block Storage 卷，块存储
+,Amazon Elastic File System (EFS),亚马逊弹性文件系统(EFS),Fully Managed File System for EC2,针对 EC2 的完全托管型文件系统
+,Amazon FSx for Lustre,Amazon FSx for Lustre,High-performance file system integrated with S3,与 S3 集成的高性能文件系统
+,Amazon FSx for Windows File Server,Amazon FSx for Windows File Server,Fully Managed Windows Native File System,完全托管型 Windows 原生文件系统
+,Amazon S3 Glacier,亚马逊S3冰川,Low-cost archive storage in the cloud,云端低成本存档存储
+,AWS Backup,AWS备份,Centralized backup across AWS services,跨 AWS 服务进行集中备份
+,AWS Snow Family,AWS雪家族,Physical edge computing and storage for use in harsh or disconnected environments,在恶劣环境或联接断开的环境中使用的物理边缘计算和存储设备
+,AWS Storage Gateway,AWS存储网关,Hybrid storage integration,混合存储集成
+,CloudEndure Disaster Recovery,云端灾难恢复,Highly automated disaster recovery,高度自动化的灾难恢复
+,,,,
+VR & AR/虚拟现实和增强现实,Amazon Sumerian,亚马逊苏美尔,Build and run VR and AR applications,构建和运行 VR 和 AR 应用程序
